@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: ApiGateWay-Service
+  cloud:
+    bus:
+      enabled: false
+    config:
+      enabled: false
+
+---
+spring:
+  profiles: refreshable
+  cloud:
+    bus:
+      enabled: true
+    config:
+      enabled: true
+      uri: http://localhost:8101
+  rabbitmq:
+    host: rmq.cloudamqp.com
+    port: 5672
+endpoints:
+  refresh:
+    enabled: true

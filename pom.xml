@@ -27,5 +27,7 @@
 	<modules>
 		<module>auth-server</module>
 		<module>resource-server</module>
+		<module>registry-service</module>
+		<module>apigateway-service</module>
 	</modules>
 </project>

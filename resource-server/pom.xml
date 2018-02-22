@@ -8,10 +8,9 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>resource-server</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>resource-server</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Resource Server</description>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>

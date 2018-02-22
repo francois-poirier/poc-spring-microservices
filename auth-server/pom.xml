@@ -8,10 +8,9 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>auth-server</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>auth-server</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Auth Server</description>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
